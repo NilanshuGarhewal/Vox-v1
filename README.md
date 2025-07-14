@@ -1,13 +1,13 @@
-# 🎧 Vox – Your Personal Music Streaming App
+# 🎧 Vox – Your Personal Music Streaming Website
 
 Vox is a full-stack music streaming web app inspired by platforms like Spotify, YouTube Music, and Apple Music.  
-Built with ❤️ using modern tools and technologies, it provides a clean UI, searcg, audio streaming, and more.
+Built with ❤️ using modern tools and technologies, it provides a clean UI, search, audio streaming, and more.
 
 ---
 
 ## 📸 Screenshots
 
-> _(Optional: Add image links here if you have app screenshots — home, player, etc.)_
+![Vox_Home_Page](https://www.dropbox.com/scl/fi/sklw8le0otk04rtp3ovyt/vox_home_page.png?rlkey=cjjz88re1zp3as48zf1b2mwat&st=z6uqhjrp&dl=0)
 
 ---
 
@@ -56,6 +56,7 @@ cd vox
 cd frontend
 npm install
 npm run dev
+
 🔹 3. Backend setup
 
 cd backend
@@ -66,9 +67,11 @@ python app.py
 
 Frontend: http://localhost:5173
 Backend: http://localhost:10000
+```
 
-🧠 Folder Structure
+### 🧠 Folder Structure
 
+```
 vox/
 ├── backend/
 │   ├── app.py
@@ -79,21 +82,30 @@ vox/
 │   ├── index.html
 │   ├── vite.config.js
 │   └── package.json
+```
 
-📦 Notable Packages Used
+### 📦 Notable Packages Used
 
-Frontend	               Backend
-react-router-dom	       Flask
-vite	                   yt-dlp
-react-icons	               Flask-CORS
-axios	                   json / os
+Frontend
+react-router-dom
+vite
+react-icons
+axios
 
-⚠️ Known Issues
+Backend
+Flask
+yt-dlp
+Flask-CORS
+json / os
+
+### ⚠️ Known Issues
+
 Mobile responsiveness intentionally blocked (feature)
 
 Playlist view feature under construction
 
-📌 Future Plans
+### 📌 Future Plans
+
 ✅ User login & auth
 
 ✅ Playlist management with cover art
@@ -104,15 +116,17 @@ Playlist view feature under construction
 
 ✅ Custom audio engine enhancements
 
-🤝 Contributing
+### 🤝 Contributing
+
 PRs welcome!
 Feel free to fork, improve, and submit pull requests.
 
-📜 License
+### 📜 License
+
 This project is licensed under MIT – free to use, modify & share.
 
-🧑‍💻 Developed By
+### 🧑‍💻 Developed By
+
 Nilanshu Garhewal
 🎶 Music Producer | 💻 Coder | 🧠 Creator
 GitHub | Instagram
-```
