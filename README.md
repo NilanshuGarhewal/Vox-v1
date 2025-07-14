@@ -16,8 +16,6 @@ Built with ❤️ using modern tools and technologies, it provides a clean UI, s
 ![Vox](./frontend/src/assets/Images/vox_artist_album_page.png.png)
 ![Vox](./frontend/src/assets/Images/vox_queue_popup.png.png)
 
----
-
 ## 🔥 Features
 
 - 🎵 Stream music directly using `yt-dlp`
