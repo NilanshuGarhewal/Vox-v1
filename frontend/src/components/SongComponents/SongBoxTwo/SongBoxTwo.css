@@ -1,0 +1,77 @@
+.song-box2 {
+  width: 100%;
+  height: auto;
+}
+
+.song-box-header {
+  padding: 0 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.song-box-divider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--fg-secondary);
+  opacity: 20%;
+}
+
+.song-box-header-btns {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background: transparent;
+  font-family: "regular", sans-serif;
+  font-size: 14px;
+  color: var(--fg-secondary);
+  cursor: pointer;
+  width: auto;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.song-box-header-btns.song-box-active {
+  color: var(--fg-primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+.song-box-lyrics {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  font-size: 28px;
+  font-family: "bold", sans-serif;
+}
+
+.song-box-credits {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  font-family: "bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.song-box-credits-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.song-box-same-heading {
+  font-family: "medium", sans-serif;
+  font-size: 14px;
+  color: var(--fg-secondary);
+}
+
+.song-box-more-like-this {
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

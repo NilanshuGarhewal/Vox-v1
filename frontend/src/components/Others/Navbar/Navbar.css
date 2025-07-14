@@ -1,0 +1,105 @@
+.navbar {
+  width: 100%;
+  height: 54px;
+  background-color: var(--bg-main);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 992;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: auto;
+}
+
+.nav {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-routes {
+  text-decoration: none;
+  color: var(--bg-main);
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nvu {
+  padding: 5px 0;
+}
+
+.nav-routes p {
+  border-radius: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  padding-left: 10px;
+  background-color: transparent;
+  transition: 0.3s ease;
+  color: var(--fg-secondary);
+}
+
+.nav-routes:hover > p {
+  background-color: var(--bg-primary);
+  color: var(--fg-primary);
+}
+
+.nav-icon {
+  margin: 0 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-routes > .active-route {
+  background-color: var(--bg-primary);
+  color: var(--fg-primary);
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  padding: 14px;
+  gap: 10px;
+}
+
+.pno {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  color: var(--fg-secondary);
+}
+
+.pno:hover {
+  color: var(--fg-primary);
+  background-color: var(--bg-primary);
+}
+
+.search-input {
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}

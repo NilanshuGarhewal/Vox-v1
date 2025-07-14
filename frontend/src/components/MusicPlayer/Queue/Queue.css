@@ -1,0 +1,133 @@
+.queue-parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: transparent;
+}
+
+.queue {
+  width: 50%;
+  height: 75%;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 805;
+}
+
+.queue-section {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-main);
+  border: 2px solid var(--bg-secondary);
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.queue-heading {
+  width: 100%;
+  height: auto;
+  color: var(--fg-secondary);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-main);
+  margin-bottom: 10px;
+}
+
+.queue-list {
+  width: 100%;
+  height: auto;
+  padding: 0 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.queue-song {
+  width: 100%;
+  height: 60px;
+  /* background-color: var(--bg-primary); */
+  display: flex;
+  border-radius: 5px;
+}
+
+.queue-song:hover {
+  background-color: var(--bg-secondary);
+}
+
+.queue-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.queue-index {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fg-secondary);
+}
+
+.queue-song-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3px;
+}
+
+.queue-song-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 20px;
+}
+
+.queue-song-artist {
+  color: var(--fg-secondary);
+  font-size: 12px;
+}
+
+.queue-song-duration {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fg-secondary);
+}
+
+.queue-song-list-icon {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+}
+
+.queue-song.current {
+  background-color: var(--bg-secondary);
+  border-left: 3px solid var(--primary);
+  border-radius: 6px;
+}
+
+.queue-song-remove {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.queue-song-remove:hover {
+  background-color: red;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

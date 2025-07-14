@@ -1,0 +1,53 @@
+/* File: SmallScreenBlocker.css */
+
+.small-screen-blocker {
+  display: none;
+}
+
+/* Show only when screen width is less than 900px */
+@media (max-width: 900px) {
+  .small-screen-blocker {
+    position: fixed;
+    inset: 0;
+    background-color: #000; /* black bg */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* stay above everything */
+  }
+
+  .ssb-logo-box {
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .ssb-logo-box .ssb-logo {
+    font-size: 100px;
+    font-family: "lot", sans-serif;
+    color: var(--primary);
+  }
+
+  .ssb-logo-box p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ccc;
+  }
+
+  /* Optional fade animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Hide the actual app on small screens */
+  .app-container,
+  .music-player,
+  .sidebar {
+    display: none !important;
+  }
+}

@@ -1,0 +1,60 @@
+.browse-contain {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--bg-main);
+}
+
+.browse-head {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 10px 20px;
+  color: var(--fg-primary);
+}
+
+.song-container-slider {
+  display: flex;
+  gap: 10px;
+}
+
+.scs {
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 50%;
+  opacity: 30%;
+  transition: all 0.3s ease;
+}
+
+.scs:hover {
+  background-color: var(--color-dark);
+  opacity: 1;
+}
+
+/* container */
+
+.browse-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.browse-container::-webkit-scrollbar {
+  display: none;
+}

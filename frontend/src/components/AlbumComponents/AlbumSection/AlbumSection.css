@@ -1,0 +1,24 @@
+.fitter4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fitter4.with-song {
+  height: calc(100vh - 54px - 80px);
+}
+
+.fitter4.without-song {
+  height: calc(100vh - 54px);
+}
+
+.alb-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-main);
+  position: relative;
+  padding: 5px;
+  padding-top: 0;
+}

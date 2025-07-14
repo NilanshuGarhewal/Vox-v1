@@ -1,0 +1,27 @@
+.error-section {
+  width: 100%;
+  height: calc(100vh - 54px);
+  padding: 5px;
+  padding-top: 0;
+}
+
+.mini {
+  height: calc(100vh - 54px - 80px);
+}
+
+.error-box {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--bg-secondary);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.err-logo {
+  font-family: "lot", sans-serif;
+  font-size: 100px;
+  color: var(--primary);
+}

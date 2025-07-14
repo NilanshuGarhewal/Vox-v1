@@ -1,0 +1,66 @@
+.mvp-tools {
+  width: auto;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.seperator {
+  width: 2px;
+  height: 100%;
+  background-color: var(--fg-secondary);
+  opacity: 27%;
+}
+
+.volume-btn {
+  width: auto;
+  width: auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vol-btn[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px; /* set width or use responsive unit */
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    var(--primary) 0%,
+    var(--primary) calc(var(--volume, 1) * 100%),
+    #444 calc(var(--volume, 1) * 100%),
+    #444 100%
+  );
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Thumb - WebKit */
+.vol-btn[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  margin-top: -4px;
+}
+
+/* Thumb - Firefox */
+.vol-btn[type="range"]::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+}
+
+.vol-btn:focus {
+  outline: none;
+}

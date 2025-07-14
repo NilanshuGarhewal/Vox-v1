@@ -1,0 +1,67 @@
+.album-tools {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.ast {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "bold", sans-serif;
+  font-size: 36px;
+}
+
+.album-small-details {
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  margin: 20px 0;
+  color: var(--fg-secondary);
+  font-family: "regular", sans-serif;
+}
+
+.album-main-artist {
+  color: var(--fg-primary);
+}
+
+/* tools */
+
+.album-tools-option {
+  padding-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+/* .album-tools-option button {
+  background: var(--color-dark);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+} */
+
+
+.alb-btn {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background: none;
+  color: var(--fg-secondary);
+}
+
+  .alb-play {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  }

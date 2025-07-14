@@ -1,0 +1,79 @@
+.song-card {
+  width: 170px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 170px;
+  max-width: 170px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.song-img1 {
+  width: 170px;
+  height: 170px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: var(--primary);
+}
+
+.song-img1 img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  transform: translateY(0px);
+  transition: transform .3s ease;
+}
+
+.song-card:hover .song-img1 > img {
+  transform: translateY(-5px);
+}
+
+.song-info {
+  width: 100%;
+  height: auto;
+  /* background-color: darkblue; */
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.song-title {
+  font-size: 14px;
+  white-space: nowrap; /* 🔒 Keep it in one line */
+  overflow: hidden; /* 🚫 Hide extra text */
+  text-overflow: ellipsis; /* ➕ Add "..." at the end */
+  max-width: 100%;
+}
+
+.song-artist-container {
+  display: block; /* Or flex if needed */
+  width: 100%; /* Make sure artist follows the width */
+  max-width: 100%;
+  height: auto;
+  color: var(--fg-primary);
+}
+.song-artist {
+  font-size: 12px;
+  color: var(--fg-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.song-play-btn {
+  width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.song-page {
+  width: 100%;
+  height: calc(100vh - 54px);
+  color: white;
+  padding-top: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mini {
+  height: calc(100vh - 54px - 80px);
+}
+
+.blurred-parent {
+  width: calc(100% - 10px);
+  height: calc(100% - 5px);
+  border-radius: 5px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.blurred-bg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: blur(50px) brightness(0.5);
+}
+
+.song-container {
+  width: calc(100% - 10px);
+  height: calc(100% - 5px);
+  border-radius: 5px;
+  border: 2px solid var(--bg-secondary);
+  position: absolute;
+  z-index: 1;
+  overflow: scroll;
+}

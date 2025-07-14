@@ -1,0 +1,37 @@
+.music-info {
+  /* width: 25%;
+  height: 100%; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.mvp-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 3px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.mvp-details {
+  /* background-color: red; */
+  padding-left:10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.mvp-title {
+  font-size: 14px;
+  color: #fff;
+}
+
+.mvp-artist {
+  font-size: 12px;
+  opacity: 30%;
+  color: white;
+}
