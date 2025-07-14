@@ -12,7 +12,7 @@ Built with ❤️ using modern tools and technologies, it provides a clean UI, s
 ![Vox](./frontend/src/assets/Images/vox_album_page_2.png)
 ![Vox](./frontend/src/assets/Images/vox_artist_page_1.png)
 ![Vox](./frontend/src/assets/Images/vox_artist_page_2.png)
-![Vox](<./frontend/src/assets/Images/vox_artist_page_1(1).png)
+![Vox](./frontend/src/assets/Images/vox_artist_page_1(1).png)
 ![Vox](./frontend/src/assets/Images/vox_artist_album_page.png)
 ![Vox](./frontend/src/assets/Images/vox_queue_popup.png)
 
