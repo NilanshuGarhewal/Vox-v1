@@ -7,14 +7,14 @@ Built with ❤️ using modern tools and technologies, it provides a clean UI, s
 
 ## 📸 Screenshots
 
-![Vox](./frontend/src/assets/Images/vox.png)
-![Vox](./frontend/src/assets/Images/vox_search.png.png)
-![Vox](./frontend/src/assets/Images/vox_album_page_2.png.png)
-![Vox](./frontend/src/assets/Images/vox_artist_page_1.png.png)
-![Vox](./frontend/src/assets/Images/vox_artist_page_2.png.png)
-![Vox](<./frontend/src/assets/Images/vox_artist_page_1(1).png.png>)
-![Vox](./frontend/src/assets/Images/vox_artist_album_page.png.png)
-![Vox](./frontend/src/assets/Images/vox_queue_popup.png.png)
+![Vox](./frontend/src/assets/Images/vox_home_page.png)
+![Vox](./frontend/src/assets/Images/vox_search.png)
+![Vox](./frontend/src/assets/Images/vox_album_page_2.png)
+![Vox](./frontend/src/assets/Images/vox_artist_page_1.png)
+![Vox](./frontend/src/assets/Images/vox_artist_page_2.png)
+![Vox](<./frontend/src/assets/Images/vox_artist_page_1(1).png)
+![Vox](./frontend/src/assets/Images/vox_artist_album_page.png)
+![Vox](./frontend/src/assets/Images/vox_queue_popup.png)
 
 ## 🔥 Features
 
