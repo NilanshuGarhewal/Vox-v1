@@ -7,7 +7,14 @@ Built with ❤️ using modern tools and technologies, it provides a clean UI, s
 
 ## 📸 Screenshots
 
-![Vox_Home_Page](https://www.dropbox.com/scl/fi/sklw8le0otk04rtp3ovyt/vox_home_page.png?rlkey=cjjz88re1zp3as48zf1b2mwat&st=z6uqhjrp&dl=0)
+![Vox](./frontend/src/assets/Images/vox.png)
+![Vox](./frontend/src/assets/Images/vox_search.png.png)
+![Vox](./frontend/src/assets/Images/vox_album_page_2.png.png)
+![Vox](./frontend/src/assets/Images/vox_artist_page_1.png.png)
+![Vox](./frontend/src/assets/Images/vox_artist_page_2.png.png)
+![Vox](<./frontend/src/assets/Images/vox_artist_page_1(1).png.png>)
+![Vox](./frontend/src/assets/Images/vox_artist_album_page.png.png)
+![Vox](./frontend/src/assets/Images/vox_queue_popup.png.png)
 
 ---
 
