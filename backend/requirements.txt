@@ -1,0 +1,4 @@
+Flask
+yt-dlp
+flask-cors
+ytmusicapi

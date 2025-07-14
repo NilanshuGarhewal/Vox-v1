@@ -1,0 +1,18 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+*.env
+
+# OS-specific files
+.DS_Store
+
+# Render build output (just in case)
+build/
+dist/
+/venv
+
+cookies.txt
